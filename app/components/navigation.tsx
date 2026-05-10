@@ -9,7 +9,7 @@ export const Navigation = () => {
   return (
     <>
       <nav 
-      className="flex items-center justify-center h-22 bg-[#F2F2F2] text-[#1A1A1A]"
+      className="flex items-center justify-center gap-12 h-22 font-bold text-[1rem] bg-[var(--accent-silver)] text-[var(--text-color)]"
       >
         <Link href="/">Home</Link>
         <Link href="/products">Products</Link>
