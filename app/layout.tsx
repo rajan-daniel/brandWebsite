@@ -31,6 +31,9 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navigation />
         {children}
+        <footer>
+          <h1>Footer</h1>
+        </footer>
         </body>
     </html>
   );

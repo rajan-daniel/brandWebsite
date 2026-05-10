@@ -8,7 +8,9 @@ export const Navigation = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-center">
+      <nav 
+      className="flex items-center justify-center h-22 bg-[#F2F2F2] text-[#1A1A1A]"
+      >
         <Link href="/">Home</Link>
         <Link href="/products">Products</Link>
         <Link href="/about">About</Link>
