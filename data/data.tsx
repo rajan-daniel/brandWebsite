@@ -5,7 +5,7 @@ export const about = {
   role: "website template",
   description: "siteSprout is known for delivering premium website scaffolds that make building a professional brand presence simple and fast.",
   about: "",
-  email: "rajan.daniel.dev@gmailcom",
+  email: "rajan.daniel.dev@gmail.com",
 };
 
 export const seo = {
