@@ -3,7 +3,7 @@ export const about = {
   role: "website template",
   description: "",
   about: "",
-  email: "",
+  email: "rajan.daniel.dev@gmailcom",
 };
 
 export const seo = {
