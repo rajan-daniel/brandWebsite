@@ -1,7 +1,7 @@
 export const about = {
   name: "brandStarter",
   role: "website template",
-  description: "",
+  description: "brandStarter is known for delivering premium website scaffolds that make building a professional brand presence simple and fast.",
   about: "",
   email: "rajan.daniel.dev@gmailcom",
 };
