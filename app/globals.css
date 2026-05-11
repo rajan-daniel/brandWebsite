@@ -5,6 +5,7 @@
   --foreground: #171717;
   --accent-silver: #F2F2F2;
   --text-color: #1A1A1A;
+  --accent-text: #E73545;
 }
 
 @theme inline {

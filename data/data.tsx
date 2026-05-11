@@ -1,5 +1,6 @@
 export const about = {
   name: "brandStarter",
+  role: "website template",
   description: "",
   about: "",
   email: "",
