@@ -1,5 +1,3 @@
-import { count } from "console";
-
 export const about = {
   name: "siteSprout",
   role: "website template",
@@ -18,16 +16,16 @@ export const seo = {
 
 export const features = [
   {
-    title: "Feature 1",
-    description: "Feature 1 Desc",
+    title: "Housing top scaffolds",
+    description: "SiteSprout is a personal project built to bring together the essential foundation for modern brand websites. It’s designed as a clean, structured starting point for creators and developers who want to launch fast, with clarity, flexibility, and scalable design built for real-world projects.",
   },
   {
-    title: "Feature 2",
-    description: "Feature 2 Desc",
+    title: "Crafting premium websites",
+    description: "I focus on building high-quality website foundations that meet the needs of modern brands and developers. SiteSprout is designed to enhance performance where it counts, delivering a clean, scalable scaffold that helps you build faster and with confidence.",
   },
   {
-    title: "Feature 3",
-    description: "Feature 3 Desc",
+    title: "Advancing web creation",
+    description: "Through thoughtful structure and modern tooling, I aim to push the boundaries of how brand websites are built with SiteSprout, helping improve the ecosystem one project at a time through a solo-built foundation.",
   },
 ];
 
