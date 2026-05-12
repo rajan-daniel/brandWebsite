@@ -1,7 +1,7 @@
 export const about = {
   name: "siteSprout",
   role: "website template",
-  description: "siteSprout is known for delivering a premium website scaffold that makes building a professional brand presence simple and fast.",
+  description: "siteSprout is known for delivering a premium website scaffold that make building a professional brand presence simple and fast.",
   about: "",
   email: "rajan.daniel.dev@gmail.com",
 };
@@ -40,6 +40,32 @@ export const metrics = [
   },
 ]
 
+export const products = [
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+  {
+
+  },
+]
 export const forms = {
   formspreeUrl: "",
 };
