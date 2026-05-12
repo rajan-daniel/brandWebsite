@@ -1,7 +1,7 @@
 export const about = {
   name: "siteSprout",
   role: "website template",
-  description: "siteSprout is known for delivering premium website scaffolds that make building a professional brand presence simple and fast.",
+  description: "siteSprout is known for delivering a premium website scaffold that makes building a professional brand presence simple and fast.",
   about: "",
   email: "rajan.daniel.dev@gmail.com",
 };
@@ -31,11 +31,11 @@ export const features = [
 
 export const metrics = [
   {
-    count: "123",
+    count: "12+",
     description: "Downloads Daily",
   },
   {
-    count: "123456",
+    count: "12M+",
     description: "Downloads Monthly",
   },
 ]
