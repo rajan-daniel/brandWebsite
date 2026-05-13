@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { products, currency } from "@/data/data";
+import { products, currency, booking } from "@/data/data";
 
 export default function Products() {
   return (
@@ -11,7 +11,7 @@ export default function Products() {
               <Link href={`/products/${product.id}`}>
                 <img
                   src={product.image}
-                  className="w-full aspect-square object-cover rounded-xl"
+                  className="w-full aspect-square object-cover rounded-xl transition-transform duration-300 ease-in-out hover:scale-105"
                 />
               </Link>
 
@@ -25,6 +25,14 @@ export default function Products() {
             </div>
           ))}
         </div>
+        {booking.show && (
+          <Link
+            href={booking.link}
+            className="mt-10 mx-auto block w-fit px-8 py-4 text-lg font-bold text-[var(--text-color)] bg-[var(--accent-silver)] rounded-full hover:scale-105 transition-transform duration-300"
+          >
+            {booking.buttonName}
+          </Link>
+        )}
       </div>
     </>
   );
