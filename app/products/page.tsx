@@ -28,6 +28,8 @@ export default function Products() {
         {booking.show && (
           <Link
             href={booking.link}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-10 mx-auto block w-fit px-8 py-4 text-lg font-bold text-[var(--text-color)] bg-[var(--accent-silver)] rounded-full hover:scale-105 transition-transform duration-300"
           >
             {booking.buttonName}

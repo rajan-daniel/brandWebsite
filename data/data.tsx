@@ -52,7 +52,7 @@ export const products = [
     title: "Mousepad v1 - 1st Edition",
     price: "120.00",
     image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
+    description: "Watch us create this mousepad live!",
   },
   {
     id: "product-2",
@@ -136,7 +136,7 @@ export const products = [
 export const booking = {
   show: true,
   buttonName: "Buy Now",
-  link: "https://amazon.com/",
+  link: "https://booksy.com/en-us/",
 };
 
 export const forms = {
