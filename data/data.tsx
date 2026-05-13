@@ -44,58 +44,20 @@ export const metrics = [
   },
 ];
 
+export const currency = "USD";
+
 export const products = [
   {
+    id: "service-1",
     title: "service 1",
-    price: "25",
+    price: "25.00",
     image: "/products/product1.webp",
     description: "This is a test description of the product 1",
   },
   {
+    id: "service-2",
     title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
-    image: "/products/product1.webp",
-    description: "This is a test description of the product 1",
-  },
-  {
-    title: "service 2",
-    price: "125",
+    price: "125.00",
     image: "/products/product1.webp",
     description: "This is a test description of the product 1",
   },
