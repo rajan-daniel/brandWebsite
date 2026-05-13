@@ -48,8 +48,36 @@ export const currency = "USD";
 
 export const products = [
   {
-    id: "service-1",
-    title: "service 1",
+    id: "haircut",
+    title: "Haircut",
+    price: "25.00",
+    image: "/products/product1.webp",
+    description: "This is a test description of the product 1",
+  },
+  {
+    id: "service-2",
+    title: "service 2",
+    price: "125.00",
+    image: "/products/product1.webp",
+    description: "This is a test description of the product 1",
+  },
+  {
+    id: "haircut",
+    title: "Haircut",
+    price: "25.00",
+    image: "/products/product1.webp",
+    description: "This is a test description of the product 1",
+  },
+  {
+    id: "service-2",
+    title: "service 2",
+    price: "125.00",
+    image: "/products/product1.webp",
+    description: "This is a test description of the product 1",
+  },
+  {
+    id: "haircut",
+    title: "Haircut",
     price: "25.00",
     image: "/products/product1.webp",
     description: "This is a test description of the product 1",
@@ -62,6 +90,7 @@ export const products = [
     description: "This is a test description of the product 1",
   },
 ];
+
 export const forms = {
   formspreeUrl: "",
 };
