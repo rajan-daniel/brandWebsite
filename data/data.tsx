@@ -35,8 +35,8 @@ export const features = [
 
 export const metrics = [
   {
-    count: "12+",
-    description: "Downloads Daily",
+    count: "80+",
+    description: "Customizable Elements",
   },
   {
     count: "12M+",
