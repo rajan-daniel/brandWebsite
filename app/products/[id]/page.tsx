@@ -55,7 +55,9 @@ export default async function ProductPage({
         >
           <div
             className="space-y-6"
-            dangerouslySetInnerHTML={{ __html: product?.description }}
+            dangerouslySetInnerHTML={{
+              __html: product?.description ?? "",
+            }}
           />
         </div>
       </div>
