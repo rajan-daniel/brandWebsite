@@ -42,7 +42,7 @@ export default function Home() {
                    rounded-xl bg-[var(--text-color)]
                    shadow-lg hover:scale-105 transition-transform duration-200"
               >
-                <p className="text-white text-lg font-medium">{item.step}</p>
+                <p className="text-white text-lg font-medium p-1">{item.step}</p>
 
                 <span className="mt-3 text-sm text-white/60">
                   Step {index + 1}
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </section>
       <section className="text-2xl font-semibold text-[var(--text-color)]">
-        <h1>Last</h1>
+        
       </section>
     </>
   );

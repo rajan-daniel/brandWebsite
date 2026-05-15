@@ -12,21 +12,22 @@ export const home = {
     "Perfectly simple. Open source, one editable file, endless customization",
   instructions: [
     {
-      step: "Fork or clone the repository from GitHub"
+      step: "Fork or clone the repository from GitHub",
     },
     {
-      step: "Install project dependencies using npm, yarn, or pnpm"
+      step: "Install project dependencies using npm, yarn, or pnpm",
     },
     {
-      step: "Edit the data.js file to customize your content"
+      step: "Edit the data.js file to customize your content",
     },
     {
-      step: "Replace assets like images, logos, and icons in the public folder"
+      step: "Replace assets like images, logos, and icons in the public folder",
     },
     {
-      step: "Build the project and deploy it to your hosting platform"
+      step: "Build the project and deploy it to your hosting platform",
     },
   ],
+
 };
 
 export const seo = {
