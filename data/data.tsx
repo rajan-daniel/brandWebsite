@@ -7,6 +7,28 @@ export const about = {
   email: "rajan.daniel.dev@gmail.com",
 };
 
+export const home = {
+  description:
+    "Perfectly simple. Open source, one editable file, endless customization",
+  instructions: [
+    {
+      step: "Fork or clone the repository from GitHub"
+    },
+    {
+      step: "Install project dependencies using npm, yarn, or pnpm"
+    },
+    {
+      step: "Edit the data.js file to customize your content"
+    },
+    {
+      step: "Replace assets like images, logos, and icons in the public folder"
+    },
+    {
+      step: "Build the project and deploy it to your hosting platform"
+    },
+  ],
+};
+
 export const seo = {
   title: `${about.name} | ${about.role}`,
   description:
@@ -47,12 +69,12 @@ export const metrics = [
 export const currency = "USD";
 
 export const products = [
-{
-  id: "product-1",
-  title: "Mousepad v1 - 1st Edition",
-  price: "120.00",
-  image: "/products/product1.webp",
-  description: `
+  {
+    id: "product-1",
+    title: "Mousepad v1 - 1st Edition",
+    price: "120.00",
+    image: "/products/product1.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -71,13 +93,13 @@ export const products = [
       <p><strong>Performance:</strong> Optimized for Precision & Control</p>
     </div>
   `,
-},
-{
-  id: "product-2",
-  title: "Mousepad v1 - 2nd Edition",
-  price: "45.00",
-  image: "/products/product2.webp",
-  description: `
+  },
+  {
+    id: "product-2",
+    title: "Mousepad v1 - 2nd Edition",
+    price: "45.00",
+    image: "/products/product2.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -96,13 +118,13 @@ export const products = [
       <p><strong>Performance:</strong> Built for Speed & Accuracy</p>
     </div>
   `,
-},
-{
-  id: "product-3",
-  title: "Mousepad v1 - 3rd Edition",
-  price: "105.00",
-  image: "/products/product3.webp",
-  description: `
+  },
+  {
+    id: "product-3",
+    title: "Mousepad v1 - 3rd Edition",
+    price: "105.00",
+    image: "/products/product3.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -121,13 +143,13 @@ export const products = [
       <p><strong>Performance:</strong> Optimized for Stability & Precision</p>
     </div>
   `,
-},
-{
-  id: "product-4",
-  title: "Banner - 1st Edition",
-  price: "35.00",
-  image: "/products/product4.webp",
-  description: `
+  },
+  {
+    id: "product-4",
+    title: "Banner - 1st Edition",
+    price: "35.00",
+    image: "/products/product4.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -145,13 +167,13 @@ export const products = [
       <p><strong>Style:</strong> Limited First Edition Artwork</p>
     </div>
   `,
-},
-{
-  id: "product-5",
-  title: "Banner - 2nd Edition",
-  price: "35.00",
-  image: "/products/product5.webp",
-  description: `
+  },
+  {
+    id: "product-5",
+    title: "Banner - 2nd Edition",
+    price: "35.00",
+    image: "/products/product5.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -169,13 +191,13 @@ export const products = [
       <p><strong>Style:</strong> Minimal Second Edition Design</p>
     </div>
   `,
-},
-{
-  id: "product-6",
-  title: "Banner - 3rd Edition",
-  price: "145.00",
-  image: "/products/product6.webp",
-  description: `
+  },
+  {
+    id: "product-6",
+    title: "Banner - 3rd Edition",
+    price: "145.00",
+    image: "/products/product6.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -193,13 +215,13 @@ export const products = [
       <p><strong>Style:</strong> Rare Third Edition Artwork</p>
     </div>
   `,
-},
-{
-  id: "product-7",
-  title: "Sticker - 1st Edition",
-  price: "25.00",
-  image: "/products/product7.webp",
-  description: `
+  },
+  {
+    id: "product-7",
+    title: "Sticker - 1st Edition",
+    price: "25.00",
+    image: "/products/product7.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -216,13 +238,13 @@ export const products = [
       <p><strong>Style:</strong> Limited First Edition Artwork</p>
     </div>
   `,
-},
-{
-  id: "product-8",
-  title: "Sticker - 2nd Edition",
-  price: "55.00",
-  image: "/products/product8.webp",
-  description: `
+  },
+  {
+    id: "product-8",
+    title: "Sticker - 2nd Edition",
+    price: "55.00",
+    image: "/products/product8.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -239,13 +261,13 @@ export const products = [
       <p><strong>Style:</strong> Collectible Second Edition Artwork</p>
     </div>
   `,
-},
-{
-  id: "product-9",
-  title: "Sticker - 3rd Edition",
-  price: "25.00",
-  image: "/products/product9.webp",
-  description: `
+  },
+  {
+    id: "product-9",
+    title: "Sticker - 3rd Edition",
+    price: "25.00",
+    image: "/products/product9.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -262,13 +284,13 @@ export const products = [
       <p><strong>Style:</strong> Minimal Third Edition Design</p>
     </div>
   `,
-},
-{
-  id: "product-10",
-  title: "Sticker - 4th Edition",
-  price: "125.00",
-  image: "/products/product10.webp",
-  description: `
+  },
+  {
+    id: "product-10",
+    title: "Sticker - 4th Edition",
+    price: "125.00",
+    image: "/products/product10.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -285,13 +307,13 @@ export const products = [
       <p><strong>Style:</strong> Rare Fourth Edition Artwork</p>
     </div>
   `,
-},
-{
-  id: "product-11",
-  title: "Sticker - 5th Edition",
-  price: "25.00",
-  image: "/products/product11.webp",
-  description: `
+  },
+  {
+    id: "product-11",
+    title: "Sticker - 5th Edition",
+    price: "25.00",
+    image: "/products/product11.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -308,13 +330,13 @@ export const products = [
       <p><strong>Style:</strong> Sleek Fifth Edition Artwork</p>
     </div>
   `,
-},
-{
-  id: "product-12",
-  title: "Sticker - 6th Edition",
-  price: "125.00",
-  image: "/products/product12.webp",
-  description: `
+  },
+  {
+    id: "product-12",
+    title: "Sticker - 6th Edition",
+    price: "125.00",
+    image: "/products/product12.webp",
+    description: `
     <div>
       <p><strong>
         Shipping to the United States, Canada, United Kingdom, Europe, Asia, and Australia only.
@@ -331,7 +353,7 @@ export const products = [
       <p><strong>Style:</strong> Exclusive Sixth Edition Artwork</p>
     </div>
   `,
-},
+  },
 ];
 
 export const booking = {
