@@ -363,6 +363,10 @@ export const booking = {
   link: "https://booksy.com/en-us/",
 };
 
+export const footer = {
+  emailLabel: "Be the first to know about new features and get exclusive updates",
+}
+
 export const forms = {
   formspreeUrl: "",
 };
