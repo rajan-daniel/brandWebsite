@@ -27,7 +27,6 @@ export const home = {
       step: "Build the project and deploy it to your hosting platform",
     },
   ],
-
 };
 
 export const seo = {
@@ -364,9 +363,69 @@ export const booking = {
 };
 
 export const footer = {
-  emailLabel: "Be the first to know about new features and get exclusive updates",
-}
+  emailLabel:
+    "Be the first to know about new features and get exclusive updates",
+};
 
 export const forms = {
   formspreeUrl: "",
 };
+
+export const privacyPolicy = [
+  {
+    title: "Overview",
+    description:
+      "siteSprout is an open-source front-end template and doesn’t collect, store, or track any personal data by itself. It’s just a starting point for your own project, so what happens with privacy depends on how you choose to use it.",
+  },
+  {
+    title: "What Data Is Collected",
+    description:
+      "By default, siteSprout doesn’t include any backend or built-in tracking. If you decide to add things like analytics, cookies, forms, or other tools, then any data collected would come from those additions—not from siteSprout itself.",
+  },
+  {
+    title: "Third-Party Tools",
+    description:
+      "You can connect siteSprout to third-party services if you want, like analytics or hosting tools. If you do, those services may collect data under their own rules, so it’s a good idea to check their privacy policies separately.",
+  },
+];
+
+export const termsOfService = [
+  {
+    title: "Overview",
+    description:
+      "siteSprout is an open-source front-end template built to help you start projects faster. It’s provided as-is, meaning you can use it freely, but there are no guarantees or official support included.",
+  },
+  {
+    title: "Usage & License",
+    description:
+      "siteSprout is released under the MIT License, which means you’re free to use it for personal or commercial projects. You can copy it, modify it, or even fork it and build on top of it however you like. Just keep the original license notice included when you share or reuse it.",
+  },
+  {
+    title: "Responsibility",
+    description:
+      "This template is provided without warranties. Once you use it in your own project, you’re in control of how it works and how it’s deployed. Any changes or issues that come up in your version are up to you to manage.",
+  },
+];
+
+export const refundPolicy = [
+  {
+    title: "Overview",
+    description:
+      "This is a sample refund policy for SiteSprout. Replace this content with your own refund rules based on your product or service.",
+  },
+  {
+    title: "Eligibility",
+    description:
+      "Users may define refund eligibility terms here, such as time limits, usage conditions, or product restrictions.",
+  },
+  {
+    title: "Digital Products",
+    description:
+      "For digital or downloadable products, specify whether refunds are allowed or if all sales are final after access.",
+  },
+  {
+    title: "How to Request a Refund",
+    description:
+      "Add instructions here for how users should contact you to request a refund (e.g., email or support form).",
+  },
+];

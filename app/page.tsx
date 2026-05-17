@@ -52,9 +52,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className="text-2xl font-semibold text-[var(--text-color)]">
-        
-      </section>
     </>
   );
 }
