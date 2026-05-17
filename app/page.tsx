@@ -18,10 +18,12 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/40" />
 
         <div className="relative z-10 flex h-full items-center justify-center">
-          <h1 className="text-7xl font-bold text-white">Welcome to </h1>
-          <span className="text-7xl font-bold bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 bg-clip-text text-transparent">
-            {about.name}
-          </span>
+          <h1 className="text-7xl font-bold text-white flex items-baseline gap-4">
+            <span>Welcome to</span>
+            <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-500 bg-clip-text text-transparent">
+              {about.name}
+            </span>
+          </h1>
         </div>
       </section>
       <section className="relative z-10 bg-[var(--text-color)] pt-10 pb-10 pl-10 pr-10">
@@ -42,7 +44,9 @@ export default function Home() {
                    rounded-xl bg-[var(--text-color)]
                    shadow-lg hover:scale-105 transition-transform duration-200"
               >
-                <p className="text-white text-lg font-medium p-1">{item.step}</p>
+                <p className="text-white text-lg font-medium p-1">
+                  {item.step}
+                </p>
 
                 <span className="mt-3 text-sm text-white/60">
                   Step {index + 1}
