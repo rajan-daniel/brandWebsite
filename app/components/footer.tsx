@@ -3,19 +3,17 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="w-full border-t bg-[var(--text-color)] py-20 text-sm text-white">
-      <div className="flex w-full px-8 gap-10 justify-between">
-        {/* 1. Email section */}
-        <div className="flex flex-col gap-4 flex-[2] max-w-xl">
+    <footer className="w-full border-t bg-[var(--text-color)] py-14 text-sm text-white">
+      <div className="mx-auto flex w-full max-w-6xl px-8 items-start gap-16">
+        {/* Left Section */}
+        <div className="flex flex-col gap-4 w-full max-w-sm">
           <img
             className="h-20 w-20 object-contain brightness-0 invert"
             src="/logo.svg"
             alt="Logo"
           />
 
-          <h1 className="text-2xl font-bold text-white">
-            {footer.emailLabel}
-          </h1>
+          <h1 className="text-2xl font-bold text-white">{footer.emailLabel}</h1>
 
           <input
             type="email"
@@ -24,24 +22,28 @@ export function Footer() {
           />
         </div>
 
-        {/* 2. Nav */}
-        <nav className="flex flex-col gap-4 flex-1 items-start">
-          <Link href="/">Home</Link>
-          <Link href="/products">Products</Link>
-          <Link href="/about">About</Link>
-        </nav>
+        {/* Right Group */}
+        <div className="flex gap-16">
+          {/* Nav 1 */}
+          <nav className="flex flex-col gap-4 items-start text-[var(--footer-accent)] font-bold">
+            <Link href="/">Home</Link>
+            <Link href="/products">Products</Link>
+            <Link href="/about">About</Link>
+          </nav>
 
-        {/* 3. Nav (duplicate column) */}
-        <nav className="flex flex-col gap-4 flex-1 items-start">
-          <Link href="/">Home</Link>
-          <Link href="/products">Products</Link>
-          <Link href="/about">About</Link>
-        </nav>
+          {/* Nav 2 */}
+          <nav className="flex flex-col gap-4 items-start text-[var(--footer-accent)] font-bold">
+            <Link href="/privacy">Privacy Policy</Link>
+            <Link href="/terms">Terms of Service</Link>
+            <Link href="/refund">Refund Policy</Link>
+            <Link href="/contact">Contact</Link>
+          </nav>
 
-        {/* 4. About */}
-        <div className="flex flex-col gap-2 flex-1 max-w-xs">
-          <h1 className="font-bold">About</h1>
-          <p className="leading-relaxed">{about.description}</p>
+          {/* About */}
+          <div className="flex flex-col gap-2 max-w-xs">
+            <h1 className="font-bold">About</h1>
+            <p className="leading-relaxed text-[var(--footer-accent)]">{about.description}</p>
+          </div>
         </div>
       </div>
     </footer>
