@@ -42,9 +42,16 @@ export function Footer() {
           {/* About */}
           <div className="flex flex-col gap-2 max-w-xs">
             <h1 className="font-bold">About</h1>
-            <p className="leading-relaxed text-[var(--footer-accent)]">{about.description}</p>
+            <p className="leading-relaxed text-[var(--footer-accent)]">
+              {about.description}
+            </p>
           </div>
         </div>
+      </div>
+      <div className="mx-auto w-full max-w-6xl px-8">
+        <p className="mt-10 text-xs text-white/50">
+          © 2026 SiteSprout. Released under the MIT License.
+        </p>
       </div>
     </footer>
   );
