@@ -4,7 +4,8 @@ import Link from "next/link";
 export function Footer() {
   return (
     <footer className="w-full border-t bg-[var(--text-color)] py-14 text-sm text-white">
-      <div className="mx-auto flex w-full max-w-6xl px-8 items-start gap-16">
+      <div className="mx-auto flex flex-col md:flex-row w-full max-w-6xl px-8 items-start gap-16">
+        
         {/* email section */}
         <div className="flex flex-col gap-4 w-full max-w-sm">
           <img
@@ -23,7 +24,7 @@ export function Footer() {
         </div>
 
         {/* both navs and about repeat */}
-        <div className="flex gap-16">
+        <div className="flex flex-col md:flex-row gap-12 md:gap-16 w-full justify-between">
           
           <nav className="flex flex-col gap-4 items-start text-[var(--footer-accent)] font-bold">
             <Link href="/">Home</Link>
@@ -48,6 +49,7 @@ export function Footer() {
           </div>
         </div>
       </div>
+
       <div className="mx-auto w-full max-w-6xl px-8">
         <p className="mt-10 text-xs text-white/50">
           © 2026 SiteSprout. Released under the MIT License.
