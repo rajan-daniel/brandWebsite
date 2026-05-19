@@ -4,7 +4,7 @@ import { about, home } from "@/data/data";
 export default function Home() {
   return (
     <>
-      <section className="relative h-screen w-screen overflow-hidden">
+      <section className="relative h-screen w-full overflow-hidden">
         <video
           autoPlay
           muted
