@@ -12,7 +12,7 @@ export const home = {
     "Perfectly simple. Open source, one editable file, endless customization",
   instructions: [
     {
-      step: "Fork or clone the repository from GitHub using the “Use This Template” button in the Products tab.",
+      step: "Fork or clone the repository from GitHub “Use this Template” button in Products",
     },
     {
       step: "Install project dependencies using npm, yarn, or pnpm",
@@ -62,7 +62,7 @@ export const metrics = [
   },
   {
     count: "12M+",
-    description: "Downloads Monthly",
+    description: "Possible Configurations",
   },
 ];
 
@@ -358,7 +358,7 @@ export const products = [
 
 export const booking = {
   show: true,
-  buttonName: "Use This Template",
+  buttonName: "Use this Template",
   link: "https://github.com/rajan-daniel/siteSprout",
 };
 
