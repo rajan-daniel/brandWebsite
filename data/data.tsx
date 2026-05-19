@@ -18,7 +18,7 @@ export const home = {
       step: "Install project dependencies using npm, yarn, or pnpm",
     },
     {
-      step: "Edit the data.js file to customize your content",
+      step: "Edit the data.tsx file to customize your content",
     },
     {
       step: "Replace assets like images, logos, and icons in the public folder",
@@ -358,7 +358,7 @@ export const products = [
 
 export const booking = {
   show: true,
-  buttonName: "Buy Now",
+  buttonName: "Book Now",
   link: "https://booksy.com/en-us/",
 };
 
@@ -367,8 +367,23 @@ export const footer = {
     "Be the first to know about new features and get exclusive updates",
 };
 
-export const forms = {
-  formspreeUrl: "",
+export const legalDescriptions = {
+  terms: {
+    description:
+      "These terms outline how siteSprout can be used as an open-source template and what responsibilities apply when deploying it.",
+  },
+  refund: {
+    description:
+      "This is a sample refund policy for SiteSprout. Replace this content with your own rules for refunds, eligibility, and support.",
+  },
+  privacy: {
+    description:
+      "This page explains how siteSprout handles data and privacy for all deployments using the template.",
+  },
+  contact: {
+    description:
+      "Get in touch with us for support, questions, or business inquiries.",
+  },
 };
 
 export const privacyPolicy = [
@@ -427,5 +442,28 @@ export const refundPolicy = [
     title: "How to Request a Refund",
     description:
       "Add instructions here for how users should contact you to request a refund (e.g., email or support form).",
+  },
+];
+
+export const contact = [
+  {
+    title: "Phone Number",
+    description:
+      "Add your business phone number here so users can contact you directly for support or inquiries.",
+  },
+  {
+    title: "Email Address",
+    description:
+      "Provide a support or business email address (e.g. support@yourdomain.com) where users can reach you.",
+  },
+  {
+    title: "Business Hours",
+    description:
+      "Specify your working hours so users know when they can expect a response or live support.",
+  },
+  {
+    title: "Contact Form",
+    description:
+      "Link or describe your contact form where users can submit detailed messages or support requests.",
   },
 ];
