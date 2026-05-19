@@ -12,7 +12,7 @@ export const home = {
     "Perfectly simple. Open source, one editable file, endless customization",
   instructions: [
     {
-      step: "Fork or clone the repository from GitHub",
+      step: "Fork or clone the repository from GitHub using the “Use This Template” button in the Products tab.",
     },
     {
       step: "Install project dependencies using npm, yarn, or pnpm",
@@ -358,8 +358,8 @@ export const products = [
 
 export const booking = {
   show: true,
-  buttonName: "Book Now",
-  link: "https://booksy.com/en-us/",
+  buttonName: "Use This Template",
+  link: "https://github.com/rajan-daniel/siteSprout",
 };
 
 export const footer = {
